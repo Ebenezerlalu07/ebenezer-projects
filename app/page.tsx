@@ -11,11 +11,11 @@ const projects = [
 
 
 
+
   {
     title: "Dream Makers Mortgage",
     description:
       "Community website with events, memberships, vendor directory and gallery.",
-    logo: "/logos/sienna.png",
     image: "/Dream makers.png",
     url: "https://ebenezer-projects.vercel.app/",
     category: "Freelance",
@@ -26,10 +26,18 @@ const projects = [
     title: "AKMG Global",
     description:
       "Healthcare organization website with membership portal, events and directory.",
-    logo: "/AKMG LOGO.png",
     image: "/AKMG.png",
     url: "https://ebenezer-projects.vercel.app/",
     category: "Company",
+  },
+
+  {
+    title: "Kanchi Technologies",
+    description:
+      "Community website with events, memberships, vendor directory and gallery.",
+    image: "/kt2i.jpg",
+    url: "https://www.figma.com/proto/0QJlCkPlTafh5l4Wo3yOJU/KT2i-Home-Orange-Salmon?node-id=445-2&t=QHJM1CNF5TNg3Vyr-1",
+    category: "Freelance",
   },
 
 
@@ -37,17 +45,7 @@ const projects = [
     title: "Sienna Malayali Community",
     description:
       "Community website with events, memberships, vendor directory and gallery.",
-    logo: "/logos/sienna.png",
     image: "/Sienna.png",
-    url: "https://ebenezer-projects.vercel.app/",
-    category: "Freelance",
-  },
-  {
-    title: "Zee Tee Events",
-    description:
-      "Premium event management website with modern UI and booking system.",
-    logo: "/zeetee.png",
-    image: "/Zee tee.png",
     url: "https://ebenezer-projects.vercel.app/",
     category: "Freelance",
   },
@@ -56,9 +54,45 @@ const projects = [
     title: "German Cars",
     description:
       "Premium event management website with modern UI and booking system.",
-    logo: "/logo.png",
     image: "/Germancars.png",
     url: "https://ebenezer-projects.vercel.app/",
+    category: "Freelance",
+  },
+
+
+  {
+    title: "Malayalee Association of Greater Houston",
+    description:
+      "Community website with events, memberships, vendor directory and gallery.",
+    image: "/magh.jpg",
+    url: "https://ebenezer-projects.vercel.app/",
+    category: "Freelance",
+  },
+
+  {
+    title: "Hyundai chatbot",
+    description:
+      "Community website with events, memberships, vendor directory and gallery.",
+    image: "/hyudai chatbot.jpg",
+    url: "https://www.figma.com/proto/Q6DJ8x7jjyu4avaoUUggYy/hyundaimobisin?node-id=1-2&t=WlyKtkxWzO58C1UD-1",
+    category: "Company",
+  },
+
+  {
+    title: "Chatbot Landing Page",
+    description:
+      "Community website with events, memberships, vendor directory and gallery.",
+    image: "/engineering.jpg",
+    url: "https://www.figma.com/proto/b6rAaTeTuVaU9xY46vDlTH/Engineering-Aide-Web?node-id=1-2&page-id=0%3A1&starting-point-node-id=1%3A2&t=Uj98kKwKbsWX1eUF-1",
+    category: "Company",
+  },
+
+  {
+    title: "Digital Marketing Company",
+    description:
+      "Community website with events, memberships, vendor directory and gallery.",
+    image: "/sparkfit.jpg",
+    url: "https://sparkfitagency.com/",
     category: "Freelance",
   },
 
@@ -66,21 +100,43 @@ const projects = [
     title: "Nothing X App",
     description:
       "Nothing X App Design Concept",
-    logo: "/logo.png",
-    image: "/Nothing.png",
-    url: "https://ebenezer-projects.vercel.app/",
+    image: "/apecxo.jpg",
+    url: "https://www.figma.com/proto/tfbHZIVLOe6TQsYzAA7lHD/Nothing-X?node-id=3-114&t=I8bBSKUlePmEvW6t-1",
     category: "Freelance",
   },
+
+  {
+    title: "Apexco Global",
+    description:
+      "Nothing X App Design Concept",
+    image: "/Nothing.png",
+    url: "https://www.figma.com/proto/V31zaqta7GBbD3Zz5nEHPW/Apexco-Global-Energy-Products?node-id=1-53&t=MbpzCQZ877bIjsR0-1",
+    category: "Freelance",
+  },
+
 
   {
     title: "Lexus Website Concept",
     description:
       "Lexus Design Concept",
-    logo: "/logo.png",
     image: "/Lexus.png",
     url: "https://ebenezer-projects.vercel.app/",
     category: "Freelance",
   },
+
+  {
+    title: "Zee Tee Events",
+    description:
+      "Premium event management website with modern UI and booking system.",
+    image: "/Zee tee.png",
+    url: "https://ebenezer-projects.vercel.app/",
+    category: "Freelance",
+  },
+
+
+
+
+
 ];
 
 export default function Home() {
