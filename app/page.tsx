@@ -16,7 +16,7 @@ const projects = [
     category: "Freelance",
   },
 
-  
+
   {
     title: "AKMG Global",
     description:
@@ -62,7 +62,7 @@ const projects = [
     description:
       "Nothing X App Design Concept",
     logo: "/logo.png",
-    image: "/nothing.png",
+    image: "/Nothing.png",
     url: "https://ebenezer-projects.vercel.app/",
     category: "Freelance",
   },
@@ -72,7 +72,7 @@ const projects = [
     description:
       "Lexus Design Concept",
     logo: "/logo.png",
-    image: "/lexus.png",
+    image: "/Lexus.png",
     url: "https://ebenezer-projects.vercel.app/",
     category: "Freelance",
   },
