@@ -307,7 +307,7 @@ export default function Home() {
                   </h3>
 
                   <p className="text-gray-400">
-                    UI/UX Designer & Developer
+                    MCA Graduate
                   </p>
 
                 </div>
