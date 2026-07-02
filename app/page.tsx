@@ -5,6 +5,18 @@ import { ArrowUpRight, Building2 } from "lucide-react";
 
 
 const projects = [
+
+    {
+    title: "Dream Makers Mortgage LLC",
+    description:
+      "Community website with events, memberships, vendor directory and gallery.",
+    logo: "/logos/sienna.png",
+    image: "/Dream makers.png",
+    url: "https://ebenezer-projects.vercel.app/",
+    category: "Freelance",
+  },
+
+  
   {
     title: "AKMG Global",
     description:
@@ -15,15 +27,6 @@ const projects = [
     category: "Company",
   },
 
-  {
-    title: "Dream Makers Mortgage LLC",
-    description:
-      "Community website with events, memberships, vendor directory and gallery.",
-    logo: "/logos/sienna.png",
-    image: "/Dream makers.png",
-    url: "https://ebenezer-projects.vercel.app/",
-    category: "Freelance",
-  },
 
   {
     title: "Sienna Malayali Community",
@@ -50,6 +53,26 @@ const projects = [
       "Premium event management website with modern UI and booking system.",
     logo: "/logo.png",
     image: "/Germancars.png",
+    url: "https://ebenezer-projects.vercel.app/",
+    category: "Freelance",
+  },
+
+  {
+    title: "Nothing X App",
+    description:
+      "Nothing X App Design Concept",
+    logo: "/logo.png",
+    image: "/nothing.png",
+    url: "https://ebenezer-projects.vercel.app/",
+    category: "Freelance",
+  },
+
+  {
+    title: "Lexus Website Concept",
+    description:
+      "Lexus Design Concept",
+    logo: "/logo.png",
+    image: "/lexus.png",
     url: "https://ebenezer-projects.vercel.app/",
     category: "Freelance",
   },
