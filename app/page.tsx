@@ -42,7 +42,7 @@ const projects = [
 
 
   {
-    title: "Sienna Malayali Community",
+    title: "Sienna Malayali",
     description:
       "Community website with events, memberships, vendor directory and gallery.",
     image: "/Sienna.png",
@@ -61,7 +61,7 @@ const projects = [
 
 
   {
-    title: "Malayalee Association of Greater Houston",
+    title: "Association of Houston",
     description:
       "Community website with events, memberships, vendor directory and gallery.",
     image: "/magh.jpg",
@@ -88,7 +88,7 @@ const projects = [
   },
 
   {
-    title: "Digital Marketing Company",
+    title: "Sparkfit Agency",
     description:
       "Community website with events, memberships, vendor directory and gallery.",
     image: "/sparkfit.jpg",
@@ -100,7 +100,7 @@ const projects = [
     title: "Nothing X App",
     description:
       "Nothing X App Design Concept",
-    image: "/apecxo.jpg",
+    image: "/Nothing.png",
     url: "https://www.figma.com/proto/tfbHZIVLOe6TQsYzAA7lHD/Nothing-X?node-id=3-114&t=I8bBSKUlePmEvW6t-1",
     category: "Freelance",
   },
@@ -108,9 +108,18 @@ const projects = [
   {
     title: "Apexco Global",
     description:
-      "Nothing X App Design Concept",
-    image: "/Nothing.png",
+      "Oil and gas Website",
+    image: "/apecxo.jpg",
     url: "https://www.figma.com/proto/V31zaqta7GBbD3Zz5nEHPW/Apexco-Global-Energy-Products?node-id=1-53&t=MbpzCQZ877bIjsR0-1",
+    category: "Freelance",
+  },
+
+  {
+    title: "Just For Kids",
+    description:
+      "Kids Pediatric",
+    image: "/justforkids.jpg",
+    url: "https://just4kidspedi.com/",
     category: "Freelance",
   },
 
@@ -387,12 +396,13 @@ export default function Home() {
                         <span className="h-3 w-3 rounded-full bg-green-500"></span>
                       </div>
 
-                      <div className="rounded-full bg-white/5 px-6 py-2 text-sm text-gray-400">
-                        {project.url.replace("https://", "")}
+                      <div className="flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-5 py-2 text-sm text-gray-400">
+                        <div className="h-2 w-2 rounded-full bg-emerald-400"></div>
+                        <span>{project.title}</span>
                       </div>
 
                       <div className="text-emerald-400  text-sm font-medium">
-                        <ArrowUpRight size={18} strokeWidth={2.2} id="Live" />
+                        Live
                       </div>
 
                     </div>
