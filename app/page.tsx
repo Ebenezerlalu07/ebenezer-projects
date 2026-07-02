@@ -49,7 +49,7 @@ const projects = [
     description:
       "Premium event management website with modern UI and booking system.",
     logo: "/logo.png",
-    image: "/germancars.png",
+    image: "/Germancars.png",
     url: "https://example.com",
     category: "Freelance",
   },
@@ -290,8 +290,8 @@ export default function Home() {
                       {project.url.replace("https://", "")}
                     </div>
 
-                    <div className="text-emerald-400 text-sm font-medium">
-                      Live ↗
+                    <div className="text-emerald-400  text-sm font-medium">
+                      <ArrowUpRight size={18} strokeWidth={2.2} id="Live"/>
                     </div>
 
                   </div>
