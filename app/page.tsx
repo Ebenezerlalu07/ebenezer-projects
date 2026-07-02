@@ -2,11 +2,16 @@
 
 import { motion } from "framer-motion";
 import { ArrowUpRight, Building2 } from "lucide-react";
+import { useState } from "react";
+
+
 
 
 const projects = [
 
-    {
+
+
+  {
     title: "Dream Makers Mortgage LLC",
     description:
       "Community website with events, memberships, vendor directory and gallery.",
@@ -79,7 +84,11 @@ const projects = [
 ];
 
 export default function Home() {
+  const [showAll, setShowAll] = useState(false);
+
+  const displayedProjects = showAll ? projects : projects.slice(0, 5);
   return (
+
 
 
 
@@ -108,7 +117,7 @@ export default function Home() {
       </div>
 
       {/* Hero */}
-      <section className="relative overflow-hidden pt-32 pb-20">
+      <section id="hero" className="relative overflow-hidden pt-32 pb-20">
 
 
         <div className="relative mx-auto flex w-[92%] max-w-7xl flex-col items-center gap-20 lg:flex-row">
@@ -296,97 +305,110 @@ export default function Home() {
           </motion.div>
 
           <div className="space-y-24">
-            {projects.map((project, index) => (
-              <motion.a
-                key={index}
-                href={project.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                initial={{ opacity: 0, y: 80 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.7 }}
-                className="group block"
-              >
-                {/* Browser Window */}
-                <div className="overflow-hidden rounded-2xl border border-white/10 bg-[#101916] shadow-[0_25px_60px_rgba(0,0,0,.45)] transition-all duration-500 group-hover:border-emerald-500/40">
+            {projects
+              .slice(0, showAll ? projects.length : 5)
+              .map((project, index) => (
+                <motion.a
+                  key={index}
+                  href={project.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  initial={{ opacity: 0, y: 80 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.7 }}
+                  className="group block"
+                >
+                  {/* Browser Window */}
+                  <div className="overflow-hidden rounded-2xl border border-white/10 bg-[#101916] shadow-[0_25px_60px_rgba(0,0,0,.45)] transition-all duration-500 group-hover:border-emerald-500/40">
 
-                  {/* Browser Header */}
-                  <div className="flex items-center justify-between border-b border-white/10 bg-[#0b1311] px-6 py-4">
+                    {/* Browser Header */}
+                    <div className="flex items-center justify-between border-b border-white/10 bg-[#0b1311] px-6 py-4">
 
-                    <div className="flex items-center gap-2">
-                      <span className="h-3 w-3 rounded-full bg-red-500"></span>
-                      <span className="h-3 w-3 rounded-full bg-yellow-400"></span>
-                      <span className="h-3 w-3 rounded-full bg-green-500"></span>
+                      <div className="flex items-center gap-2">
+                        <span className="h-3 w-3 rounded-full bg-red-500"></span>
+                        <span className="h-3 w-3 rounded-full bg-yellow-400"></span>
+                        <span className="h-3 w-3 rounded-full bg-green-500"></span>
+                      </div>
+
+                      <div className="rounded-full bg-white/5 px-6 py-2 text-sm text-gray-400">
+                        {project.url.replace("https://", "")}
+                      </div>
+
+                      <div className="text-emerald-400  text-sm font-medium">
+                        <ArrowUpRight size={18} strokeWidth={2.2} id="Live" />
+                      </div>
+
                     </div>
 
-                    <div className="rounded-full bg-white/5 px-6 py-2 text-sm text-gray-400">
-                      {project.url.replace("https://", "")}
-                    </div>
+                    {/* Screenshot */}
 
-                    <div className="text-emerald-400  text-sm font-medium">
-                      <ArrowUpRight size={18} strokeWidth={2.2} id="Live" />
+                    <div className="overflow-hidden bg-black">
+                      <img
+                        src={project.image}
+                        alt={project.title}
+                        className="w-full transition duration-700 group-hover:scale-105"
+                      />
                     </div>
 
                   </div>
 
-                  {/* Screenshot */}
+                  {/* Bottom Content */}
+                  <div className="mt-8 border-t border-white/10 pt-8">
 
-                  <div className="overflow-hidden bg-black">
-                    <img
-                      src={project.image}
-                      alt={project.title}
-                      className="w-full transition duration-700 group-hover:scale-105"
-                    />
-                  </div>
+                    <div className="grid gap-8 lg:grid-cols-[1fr_auto] lg:items-end">
 
-                </div>
+                      {/* Left Content */}
+                      <div>
 
-                {/* Bottom Content */}
-                <div className="mt-8 border-t border-white/10 pt-8">
+                        <div className="mb-4 flex items-center gap-3">
 
-                  <div className="grid gap-8 lg:grid-cols-[1fr_auto] lg:items-end">
+                          <span className="rounded-full border border-emerald-500/20 bg-emerald-500/10 px-3 py-1 text-xs font-medium tracking-wide text-emerald-300">
+                            {project.category}
+                          </span>
 
-                    {/* Left Content */}
-                    <div>
+                        </div>
 
-                      <div className="mb-4 flex items-center gap-3">
+                        <h3 className="text-3xl font-bold tracking-tight transition-colors duration-300 group-hover:text-emerald-400">
+                          {project.title}
+                        </h3>
 
-                        <span className="rounded-full border border-emerald-500/20 bg-emerald-500/10 px-3 py-1 text-xs font-medium tracking-wide text-emerald-300">
-                          {project.category}
-                        </span>
+                        <p className="mt-5 max-w-3xl text-base leading-8 text-gray-400">
+                          {project.description}
+                        </p>
 
                       </div>
 
-                      <h3 className="text-3xl font-bold tracking-tight transition-colors duration-300 group-hover:text-emerald-400">
-                        {project.title}
-                      </h3>
-
-                      <p className="mt-5 max-w-3xl text-base leading-8 text-gray-400">
-                        {project.description}
-                      </p>
+                      {/* Right Link */}
+                      <a
+                        href={project.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-2 text-base font-medium text-white transition-all duration-300 hover:gap-3 hover:text-emerald-400"
+                      >
+                        Visit Website
+                        <ArrowUpRight size={18} strokeWidth={2.2} />
+                      </a>
 
                     </div>
 
-                    {/* Right Link */}
-                    <a
-                      href={project.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 text-base font-medium text-white transition-all duration-300 hover:gap-3 hover:text-emerald-400"
-                    >
-                      Visit Website
-                      <ArrowUpRight size={18} strokeWidth={2.2} />
-                    </a>
-
                   </div>
 
-                </div>
 
-
-              </motion.a>
-            ))}
+                </motion.a>
+              ))}
           </div>
+
+          {projects.length > 5 && (
+            <div className="mt-16 flex justify-center">
+              <button
+                onClick={() => setShowAll(!showAll)}
+                className="group rounded-full border border-emerald-500/30 bg-emerald-500/10 px-8 py-4 text-emerald-300 transition-all duration-300 hover:bg-emerald-500 hover:text-black"
+              >
+                {showAll ? "Show Less" : "View All Projects"}
+              </button>
+            </div>
+          )}
 
         </div>
       </section>
