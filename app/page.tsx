@@ -12,7 +12,7 @@ const projects = [
 
 
   {
-    title: "Dream Makers Mortgage LLC",
+    title: "Dream Makers Mortgage",
     description:
       "Community website with events, memberships, vendor directory and gallery.",
     logo: "/logos/sienna.png",
