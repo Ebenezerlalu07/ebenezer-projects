@@ -8,17 +8,17 @@ export default function Navbar() {
     const socials = [
         {
             name: "LinkedIn",
-            href: "https://linkedin.com/in/your-profile",
+            href: "https://www.linkedin.com/in/ebenezer-c-lalu-450943231/",
             icon: <FaLinkedinIn size={17} />,
         },
         {
             name: "Behance",
-            href: "https://behance.net/your-profile",
+            href: "https://www.behance.net/ebenezerclalu",
             icon: <FaBehance size={17} />,
         },
         {
             name: "Website",
-            href: "https://yourwebsite.com",
+            href: "https://ebenezeridesignstudio.framer.website/",
             icon: <Globe size={17} />,
         },
     ];
@@ -40,7 +40,7 @@ export default function Navbar() {
                         {/* Logo */}
                         <Link href="/">
                             <h1 className="bg-gradient-to-r from-white bg-clip-text text-lg font-bold tracking-[0.28em] text-transparent md:text-xl">
-                                EBENEZER.
+                                Ebenezer
                             </h1>
                         </Link>
 

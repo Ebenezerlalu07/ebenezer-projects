@@ -11,17 +11,17 @@ const projects = [
       "Healthcare organization website with membership portal, events and directory.",
     logo: "/AKMG LOGO.png",
     image: "/AKMG.png",
-    url: "https://akmgglobal.com",
+    url: "https://ebenezer-projects.vercel.app/",
     category: "Company",
   },
 
-    {
+  {
     title: "Dream Makers Mortgage LLC",
     description:
       "Community website with events, memberships, vendor directory and gallery.",
     logo: "/logos/sienna.png",
     image: "/Dream makers.png",
-    url: "https://example.com",
+    url: "https://ebenezer-projects.vercel.app/",
     category: "Freelance",
   },
 
@@ -31,7 +31,7 @@ const projects = [
       "Community website with events, memberships, vendor directory and gallery.",
     logo: "/logos/sienna.png",
     image: "/Sienna.png",
-    url: "https://example.com",
+    url: "https://ebenezer-projects.vercel.app/",
     category: "Freelance",
   },
   {
@@ -40,7 +40,7 @@ const projects = [
       "Premium event management website with modern UI and booking system.",
     logo: "/zeetee.png",
     image: "/Zee tee.png",
-    url: "https://example.com",
+    url: "https://ebenezer-projects.vercel.app/",
     category: "Freelance",
   },
 
@@ -50,7 +50,7 @@ const projects = [
       "Premium event management website with modern UI and booking system.",
     logo: "/logo.png",
     image: "/Germancars.png",
-    url: "https://example.com",
+    url: "https://ebenezer-projects.vercel.app/",
     category: "Freelance",
   },
 ];
@@ -99,7 +99,7 @@ export default function Home() {
           >
 
             <span className="rounded-full border border-emerald-400/20 bg-emerald-500/10 px-5 py-2 text-sm tracking-[0.25em] text-emerald-300">
-              AVAILABLE FOR FREELANCE
+              UI/UX Designer & Developer
             </span>
 
             <h1 className="mt-8 text-4xl font-black leading-tight md:text-7xl">
@@ -113,58 +113,71 @@ export default function Home() {
 
             <p className="mt-8 max-w-xl text-lg leading-9 text-gray-300">
               Creating premium digital products through
-              <span className="text-emerald-400 font-semibold">
+              <span className="font-semibold text-emerald-400">
                 {" "}UI/UX Design
               </span>,
               modern web development, and interactive user experiences.
 
               With over
-              <span className="text-cyan-400"> 3+ years </span>
-              of experience, I build elegant products that combine creativity with performance.
+              <span className="font-semibold text-emerald-400"> 3+ years </span>
+              of experience and
+              <span className="font-semibold text-emerald-400"> 50+ successful projects </span>
+              delivered across various industries, I build elegant digital products that combine creativity, usability, and performance.
             </p>
 
             <div className="mt-12 flex flex-wrap gap-5">
 
-              <button className="rounded-xl bg-emerald-500 px-8 py-4 font-semibold text-black transition hover:scale-105">
+              <a
+                href="#projects"
+                className="inline-flex rounded-full bg-emerald-500 px-8 py-4 font-semibold text-black transition-all duration-300 hover:-translate-y-1 hover:scale-105"
+              >
                 Explore Projects
-              </button>
+              </a>
 
-              <button className="rounded-xl border border-white/10 bg-white/5 px-8 py-4 backdrop-blur-xl hover:bg-white/10">
+              <a
+                href="/Ebenezer C Lalu Resume.pdf"
+                download
+                className="inline-flex items-center rounded-full border border-white/10 bg-white/5 px-8 py-4 font-semibold backdrop-blur-xl transition-all duration-300 hover:bg-white/10"
+              >
                 Download Resume
-              </button>
+              </a>
 
             </div>
 
-            <div className="mt-16 grid max-w-lg grid-cols-3 gap-6">
+            {/* <div className="mt-16 flex items-center justify-between gap-4">
 
-              <div className="rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-xl">
-                <h2 className="text-3xl font-bold text-emerald-400">
+              <div className="text-center">
+                <h2 className="text-3xl font-black text-white sm:text-5xl">
                   3+
                 </h2>
-                <p className="mt-2 text-sm text-gray-400">
-                  Years
+                <p className="mt-2 text-xs text-gray-400 sm:text-base">
+                  Years Experience
                 </p>
               </div>
 
-              <div className="rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-xl">
-                <h2 className="text-3xl font-bold text-cyan-400">
+              <div className="h-10 w-px bg-white/10 sm:h-14" />
+
+              <div className="text-center">
+                <h2 className="text-3xl font-black text-white sm:text-5xl">
                   50+
                 </h2>
-                <p className="mt-2 text-sm text-gray-400">
+                <p className="mt-2 text-xs text-gray-400 sm:text-base">
                   Projects
                 </p>
               </div>
 
-              <div className="rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-xl">
-                <h2 className="text-3xl font-bold text-yellow-300">
+              <div className="h-10 w-px bg-white/10 sm:h-14" />
+
+              <div className="text-center">
+                <h2 className="text-3xl font-black text-white sm:text-5xl">
                   100%
                 </h2>
-                <p className="mt-2 text-sm text-gray-400">
-                  Happy Clients
+                <p className="mt-2 text-xs text-gray-400 sm:text-base">
+                  Clients
                 </p>
               </div>
 
-            </div>
+            </div> */}
 
           </motion.div>
 
@@ -197,7 +210,7 @@ export default function Home() {
                   </h3>
 
                   <p className="text-gray-400">
-                    UI/UX Designer
+                    UI/UX Designer & Developer
                   </p>
 
                 </div>
@@ -209,8 +222,6 @@ export default function Home() {
               </div>
 
             </div>
-
-            {/* Floating Card */}
 
 
 
@@ -291,7 +302,7 @@ export default function Home() {
                     </div>
 
                     <div className="text-emerald-400  text-sm font-medium">
-                      <ArrowUpRight size={18} strokeWidth={2.2} id="Live"/>
+                      <ArrowUpRight size={18} strokeWidth={2.2} id="Live" />
                     </div>
 
                   </div>
