@@ -74,7 +74,7 @@ const projects = [
     title: "Sparkfit Agency",
     description:
       "A premium website concept designed for Sparkfit Agency, a Dubai-based digital marketing company helping businesses grow their online presence across the UAE and beyond. The design combines modern aesthetics, strategic layouts, and engaging visuals to create a professional, conversion-focused user experience. Showcasing services including SEO, social media marketing, Google Ads, branding, web design, and performance marketing, the website is built to generate leads, strengthen brand credibility, and deliver seamless performance across desktop, tablet, and mobile devices.",
-    image: "/sparkfit.jpg",
+    image: "/sparkfit..jpg",
     url: "https://sparkfitagency.com/",
     category: "HTMl, Bootstrap, Javascript",
   },
@@ -120,7 +120,7 @@ const projects = [
   },
 
   {
-    title: "Grand Management Dashboard",
+    title: "Grand Management",
     description:
       "A modern dashboard concept designed with a clean two-color theme to create a professional, visually balanced, and user-friendly experience. The interface combines intuitive navigation, responsive layouts, interactive analytics, and organized management tools to simplify daily operations. Built with a focus on clarity, efficiency, and scalability, the dashboard enables users to monitor performance, manage workflows, and access key insights effortlessly while maintaining a consistent and elegant design across desktop and tablet devices.",
     image: "/dashboard.png",
