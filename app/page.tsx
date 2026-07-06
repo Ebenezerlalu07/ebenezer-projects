@@ -11,136 +11,138 @@ const projects = [
 
 
 
-
-  {
-    title: "Dream Makers Mortgage",
-    description:
-      "Community website with events, memberships, vendor directory and gallery.",
-    image: "/Dream makers.png",
-    url: "https://ebenezer-projects.vercel.app/",
-    category: "Freelance",
-  },
-
-
-  {
-    title: "AKMG Global",
-    description:
-      "Healthcare organization website with membership portal, events and directory.",
-    image: "/AKMG.png",
-    url: "https://ebenezer-projects.vercel.app/",
-    category: "Company",
-  },
-
-  {
-    title: "Kanchi Technologies",
-    description:
-      "Community website with events, memberships, vendor directory and gallery.",
-    image: "/kt2i.jpg",
-    url: "https://www.figma.com/proto/0QJlCkPlTafh5l4Wo3yOJU/KT2i-Home-Orange-Salmon?node-id=445-2&t=QHJM1CNF5TNg3Vyr-1",
-    category: "Freelance",
-  },
-
-
-  {
-    title: "Sienna Malayali",
-    description:
-      "Community website with events, memberships, vendor directory and gallery.",
-    image: "/Sienna.png",
-    url: "https://ebenezer-projects.vercel.app/",
-    category: "Freelance",
-  },
-
   {
     title: "German Cars",
     description:
-      "Premium event management website with modern UI and booking system.",
+      "A premium automotive website concept designed to celebrate the excellence of German engineering. This project features a modern, responsive UI with immersive visuals, smooth animations, and an elegant user experience inspired by iconic luxury brands. The design emphasizes performance, precision, and innovation while delivering seamless navigation across all devices",
     image: "/Germancars.png",
     url: "https://ebenezer-projects.vercel.app/",
-    category: "Freelance",
-  },
-
-
-  {
-    title: "Association of Houston",
-    description:
-      "Community website with events, memberships, vendor directory and gallery.",
-    image: "/magh.jpg",
-    url: "https://ebenezer-projects.vercel.app/",
-    category: "Freelance",
-  },
-
-  {
-    title: "Hyundai chatbot",
-    description:
-      "Community website with events, memberships, vendor directory and gallery.",
-    image: "/hyudai chatbot.jpg",
-    url: "https://www.figma.com/proto/Q6DJ8x7jjyu4avaoUUggYy/hyundaimobisin?node-id=1-2&t=WlyKtkxWzO58C1UD-1",
-    category: "Company",
-  },
-
-  {
-    title: "Chatbot Landing Page",
-    description:
-      "Community website with events, memberships, vendor directory and gallery.",
-    image: "/engineering.jpg",
-    url: "https://www.figma.com/proto/b6rAaTeTuVaU9xY46vDlTH/Engineering-Aide-Web?node-id=1-2&page-id=0%3A1&starting-point-node-id=1%3A2&t=Uj98kKwKbsWX1eUF-1",
-    category: "Company",
-  },
-
-  {
-    title: "Sparkfit Agency",
-    description:
-      "Community website with events, memberships, vendor directory and gallery.",
-    image: "/sparkfit.jpg",
-    url: "https://sparkfitagency.com/",
-    category: "Freelance",
+    category: "Next.js",
   },
 
   {
     title: "Nothing X App",
     description:
-      "Nothing X App Design Concept",
+      "A modern mobile app concept inspired by Nothing's signature minimalist design philosophy. The interface combines a clean layout, bold typography, and intuitive interactions to create a seamless user experience. Designed with a focus on simplicity, functionality, and visual clarity, the app delivers smooth navigation, engaging micro-interactions, and a premium aesthetic while maintaining consistency across every screen. The concept emphasizes usability, modern UI trends, and a distinctive design language that reflects the innovative identity of the Nothing brand.",
     image: "/Nothing.png",
     url: "https://www.figma.com/proto/tfbHZIVLOe6TQsYzAA7lHD/Nothing-X?node-id=3-114&t=I8bBSKUlePmEvW6t-1",
-    category: "Freelance",
+    category: "Figma",
   },
 
-  {
-    title: "Apexco Global",
-    description:
-      "Oil and gas Website",
-    image: "/apecxo.jpg",
-    url: "https://www.figma.com/proto/V31zaqta7GBbD3Zz5nEHPW/Apexco-Global-Energy-Products?node-id=1-53&t=MbpzCQZ877bIjsR0-1",
-    category: "Freelance",
-  },
 
-  {
-    title: "Just For Kids",
-    description:
-      "Kids Pediatric",
-    image: "/justforkids.jpg",
-    url: "https://just4kidspedi.com/",
-    category: "Freelance",
-  },
 
 
   {
     title: "Lexus Website Concept",
     description:
-      "Lexus Design Concept",
+      "A premium website concept crafted to reflect the elegance, innovation, and performance of the Lexus brand. The design features a sophisticated user interface with immersive visuals, refined typography, and smooth animations that create a luxurious browsing experience. Built with a focus on responsive design and intuitive navigation, the website showcases vehicle collections, brand heritage, and advanced automotive technology while delivering a seamless experience across desktop, tablet, and mobile devices.",
     image: "/Lexus.png",
     url: "https://ebenezer-projects.vercel.app/",
-    category: "Freelance",
+    category: "Figma",
+  },
+
+
+  {
+    title: "Lays Hero Concept",
+    description:
+      "A vibrant hero section concept designed for the Lay's brand, featuring bold visuals, energetic colors, and engaging animations that instantly capture attention. The design highlights the product with a modern layout, eye-catching typography, and a playful user experience that reflects the brand's fun and youthful personality.",
+    image: "/lays.jpg",
+    url: "https://www.figma.com/proto/4nyhAc3jfiGXnnOSCWob9m/Lays-Home-Animation-Co?node-id=1-4&t=a30B0nnEG6zOJS77-1",
+    category: "Figma",
+  },
+
+
+  {
+    title: "Chatbot Agents",
+    description:
+      "A modern AI chatbot platform concept designed to deliver intelligent, fast, and seamless conversational experiences. The interface features a clean, user-friendly design with intuitive navigation, real-time messaging, and a scalable dashboard for managing AI agents. Focused on usability and productivity, the concept includes smart automation, conversation analytics, and responsive layouts that provide a consistent experience across desktop and mobile devices. The design emphasizes efficiency, accessibility, and a premium user experience for businesses and customer support solutions.",
+    image: "/engineering.jpg",
+    url: "https://www.figma.com/proto/b6rAaTeTuVaU9xY46vDlTH/Engineering-Aide-Web?node-id=1-2&page-id=0%3A1&starting-point-node-id=1%3A2&t=Uj98kKwKbsWX1eUF-1",
+    category: "Figma",
   },
 
   {
-    title: "Zee Tee Events",
+    title: "Promised Land Appraisal",
     description:
-      "Premium event management website with modern UI and booking system.",
-    image: "/Zee tee.png",
-    url: "https://ebenezer-projects.vercel.app/",
-    category: "Freelance",
+      "A professional website concept designed for a real estate appraisal company, focused on trust, accuracy, and a seamless user experience. The design features a clean and modern interface with intuitive navigation, responsive layouts, and clear service presentation.",
+    image: "/Promised Land Appraisal.png",
+    url: "https://www.figma.com/proto/gcQCYLQC2KcpUbZIzGTRcg/Promised-Land-Appraisal?node-id=1-31&t=rAatuLmIZ2rEsJmd-1",
+    category: "Figma",
   },
+
+  {
+    title: "Sparkfit Agency",
+    description:
+      "A premium website concept designed for Sparkfit Agency, a Dubai-based digital marketing company helping businesses grow their online presence across the UAE and beyond. The design combines modern aesthetics, strategic layouts, and engaging visuals to create a professional, conversion-focused user experience. Showcasing services including SEO, social media marketing, Google Ads, branding, web design, and performance marketing, the website is built to generate leads, strengthen brand credibility, and deliver seamless performance across desktop, tablet, and mobile devices.",
+    image: "/sparkfit.jpg",
+    url: "https://sparkfitagency.com/",
+    category: "HTMl, Bootstrap, Javascript",
+  },
+
+  {
+    title: "Grand Flow",
+    description:
+      "A modern corporate website concept designed for Grand Management, focused on professionalism, efficiency, and a strong digital presence. The design features a clean and sophisticated interface with intuitive navigation, responsive layouts, and engaging visuals that effectively communicate the company's services and expertise.",
+    image: "/Grand.jpg",
+    url: "https://www.figma.com/proto/l85dHUKSbwtFAl9WNZXiP0/Grant-Flow?node-id=2-219&t=PTtcw5rdJx8msQXs-1",
+    category: "Figma",
+  },
+
+
+  {
+    title: "Tech Website",
+    description:
+      "A modern hero page concept designed for a technology brand, featuring a sleek interface, bold typography, and immersive visuals that create a powerful first impression. The design combines clean layouts, engaging animations, and clear call-to-action elements to effectively showcase innovative products, services, or digital solutions.",
+    image: "/tech.png",
+    url: "https://www.figma.com/proto/UmrtTzAmfy3rkiBWW9gKx5/Tech?node-id=1-2&t=bjOUqiUuRHRRdnnk-1",
+    category: "Figma",
+  },
+
+
+  {
+    title: "Church Website",
+    description:
+      "A modern and welcoming website concept designed for a church, focused on fostering community, faith, and meaningful connections. The design features a clean, elegant interface with intuitive navigation, calming visuals, and responsive layouts that provide a seamless experience across all devices.",
+    image: "/sharon.png",
+    url: "https://xd.adobe.com/view/e7c42a41-56ac-4966-9a78-3b71037a9417-b297/",
+    category: "Adobe XD, PS",
+  },
+
+
+
+  {
+    title: "Chatbot",
+    description:
+      "A modern chatbot interface concept designed to deliver fast, intuitive, and engaging conversational experiences. The UI features a clean layout, responsive messaging components, and a user-friendly design that enhances communication between users and AI.",
+    image: "/chatbot1.jpg",
+    url: "",
+    category: "Figma",
+  },
+
+  {
+    title: "Grand Management Dashboard",
+    description:
+      "A modern dashboard concept designed with a clean two-color theme to create a professional, visually balanced, and user-friendly experience. The interface combines intuitive navigation, responsive layouts, interactive analytics, and organized management tools to simplify daily operations. Built with a focus on clarity, efficiency, and scalability, the dashboard enables users to monitor performance, manage workflows, and access key insights effortlessly while maintaining a consistent and elegant design across desktop and tablet devices.",
+    image: "/dashboard.png",
+    url: "https://www.figma.com/proto/l85dHUKSbwtFAl9WNZXiP0/Grant-Flow?node-id=44-2&t=GFQRpCupBS1wD4dV-1",
+    category: "Figma",
+  },
+
+
+
+  {
+    title: "Green Color Palette",
+    description:
+      "A thoughtfully crafted green color palette designed to help clients build a fresh, trustworthy, and memorable brand identity. The carefully selected shades create a modern and professional look while conveying growth, reliability, and innovation. Suitable for websites, mobile apps, dashboards, and marketing materials, this palette ensures visual consistency, enhances user experience, and provides a strong foundation for creating engaging digital products that resonate with your audience.",
+    image: "/color pallets.png",
+    url: "https://www.figma.com/proto/BZUCsjVbYHpKDufvuB2SND/Green-Color-Chart-Palette-%E2%80%A2-All-Editable-with-Codes--Community-?node-id=0-24&t=EhItqCkeCguNGbHf-1",
+    category: "Figma",
+  },
+
+
+
+
+
 
 
 
