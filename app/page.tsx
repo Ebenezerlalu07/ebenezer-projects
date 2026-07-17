@@ -7,6 +7,7 @@ import { useState } from "react";
 
 
 
+
 const projects = [
 
 
@@ -295,7 +296,7 @@ export default function Home() {
               <div className="absolute -right-5 -top-5 h-28 w-28 rounded-full bg-emerald-500 blur-3xl opacity-40" />
 
               <img
-                src="/Ebenezer 1.png"
+                src="/Ebenezer C Lalu Pro image.png"
                 alt=""
                 className="mx-auto h-[420px] w-full rounded-3xl object-cover"
               />

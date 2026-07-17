@@ -35,7 +35,7 @@ export default function Footer() {
                 {/* Button */}
                 <div className="mt-8 flex justify-center">
                     <Link
-                        href="https://wa.me/message/VAXVFYDCN4ZIC1"
+                        href="https://wa.me/971588144023"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="group inline-flex items-center gap-2 rounded-full border border-emerald-400/30 bg-emerald-500/10 px-6 py-3 text-base font-medium text-emerald-300 transition-all duration-300 hover:bg-emerald-500 hover:text-black hover:shadow-[0_0_30px_rgba(16,185,129,0.35)]"
