@@ -10,6 +10,14 @@ import { useState } from "react";
 
 const projects = [
 
+  {
+    title: "Association of Kerala Medical and Dental Graduates (AKMG)",
+    description:
+      "The AKMG Global website was designed and developed as a modern, professional digital platform for the Association of Kerala Medical and Dental Graduates (AKMG) Global, a worldwide network of medical and dental professionals of Keralan origin. The primary objective was to create a user-friendly, responsive, and visually engaging website that strengthens the organization's global presence, facilitates member engagement, and showcases its initiatives, events, and healthcare contributions. The project also includes a comprehensive Admin Panel (CMS), enabling administrators to efficiently manage website content, member information, events, news, galleries, directories, and other dynamic sections without requiring technical expertise. The platform was built with a focus on performance, scalability, security, and ease of content management, ensuring seamless administration while delivering an intuitive experience for members and visitors across all devices.",
+    image: "/AKMG.png",
+    url: "https://akmgglobal.org/",
+    category: "Figma Design & Dev",
+  },
 
 
   {
@@ -20,6 +28,9 @@ const projects = [
     url: "https://ebenezer-projects.vercel.app/",
     category: "Next.js",
   },
+
+
+
 
   {
     title: "Nothing X App",

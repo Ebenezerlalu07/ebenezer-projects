@@ -28,8 +28,7 @@ export default function Footer() {
 
                 {/* Description */}
                 <p className="mx-auto mt-5 max-w-xl text-center text-base leading-7 text-zinc-400">
-                    Available for freelance projects, UI/UX design,
-                    and front-end development.
+                    Based in Dubai, UAE, specializing in UI/UX Design and Front-End Development, and open to new opportunities and collaborations.
                 </p>
 
                 {/* Button */}
