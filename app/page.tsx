@@ -14,9 +14,18 @@ const projects = [
     title: "Association of Kerala Medical and Dental Graduates (AKMG)",
     description:
       "The AKMG Global website was designed and developed as a modern, professional digital platform for the Association of Kerala Medical and Dental Graduates (AKMG) Global, a worldwide network of medical and dental professionals of Keralan origin. The primary objective was to create a user-friendly, responsive, and visually engaging website that strengthens the organization's global presence, facilitates member engagement, and showcases its initiatives, events, and healthcare contributions. The project also includes a comprehensive Admin Panel (CMS), enabling administrators to efficiently manage website content, member information, events, news, galleries, directories, and other dynamic sections without requiring technical expertise. The platform was built with a focus on performance, scalability, security, and ease of content management, ensuring seamless administration while delivering an intuitive experience for members and visitors across all devices.",
-    image: "/AKMG.png",
+    image: "/AKMG Global Home M1.jpg",
     url: "https://akmgglobal.org/",
     category: "Figma Design & Dev",
+  },
+
+  {
+    title: "Flamingo Interior Design",
+    description:
+      "A modern, elegant, and user-friendly Arabic website concept focused on showcasing beautiful interiors and creating a premium digital experience.",
+    image: "/FLAMINGO M3.jpg",
+    url: "https://www.figma.com/proto/uO5x4yos0zHG38ngTgqqNp/Flamingo-Arabic?node-id=1-2&t=skz3NrR6RL6p56hw-1",
+    category: "Figma Design",
   },
 
 
@@ -24,7 +33,7 @@ const projects = [
     title: "German Cars",
     description:
       "A premium automotive website concept designed to celebrate the excellence of German engineering. This project features a modern, responsive UI with immersive visuals, smooth animations, and an elegant user experience inspired by iconic luxury brands. The design emphasizes performance, precision, and innovation while delivering seamless navigation across all devices",
-    image: "/Germancars.png",
+    image: "/German Cars M1.jpg",
     url: "https://german-car-brand.vercel.app/",
     category: "Next.js",
   },
@@ -36,8 +45,26 @@ const projects = [
     title: "Nothing X App",
     description:
       "A modern mobile app concept inspired by Nothing's signature minimalist design philosophy. The interface combines a clean layout, bold typography, and intuitive interactions to create a seamless user experience. Designed with a focus on simplicity, functionality, and visual clarity, the app delivers smooth navigation, engaging micro-interactions, and a premium aesthetic while maintaining consistency across every screen. The concept emphasizes usability, modern UI trends, and a distinctive design language that reflects the innovative identity of the Nothing brand.",
-    image: "/Nothing.png",
+    image: "/Nothing X M1.jpg",
     url: "https://www.figma.com/proto/tfbHZIVLOe6TQsYzAA7lHD/Nothing-X?node-id=3-114&t=I8bBSKUlePmEvW6t-1",
+    category: "Figma",
+  },
+
+  {
+    title: "Talabat AI-Powered Food Delivery App",
+    description:
+      "The design features a clean and engaging interface, easy navigation, attractive food visuals, and a streamlined checkout experience. Every screen is designed with a strong focus on usability, accessibility, and convenience, The concept is optimized for a smooth mobile experience, combining modern UI design with AI-driven personalization to create a faster, smarter, and more engaging food delivery journey.",
+    image: "/Talabat Mobile App Design Concept M1.jpg",
+    url: "https://www.figma.com/proto/SUY1sXa9DAag5JmmIMrpcS/Talabat-Design-Concept?node-id=1-2&t=sK4bqzdKlCmy54A1-1",
+    category: "Figma",
+  },
+
+  {
+    title: "Kayali Fragrances Website Concept",
+    description:
+      "The website combines luxury aesthetics, modern UI, smooth interactions, and intuitive navigation to reflect the elegance and personality of the Kayali brand. The responsive design ensures a consistent and engaging experience across desktop, tablet, and mobile devices..",
+    image: "/Kayali Hero Design Concept.png",
+    url: "https://www.figma.com/proto/74Ihbouf7KnnIqvjnDon3z/Kayali-Hero-Design-Concept?node-id=1-2&t=Y0oJTEncCVSP6iZV-1",
     category: "Figma",
   },
 
