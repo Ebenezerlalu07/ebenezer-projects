@@ -20,6 +20,16 @@ const projects = [
   },
 
   {
+    title: "Easy Purchase, Building Materials Company",
+    description:
+      "Easy Purchase is a modern building materials e-commerce and quotation platform designed to help customers explore products, manage enquiries, request quotations, and connect with suppliers easily. The system includes a responsive product catalogue, cart and quote flow, customer management, and a complete admin dashboard for products, categories, brands, quotations, users, and settings.",
+    image: "/easy purchase.jpg",
+    url: "https://easy-purchase.vercel.app/",
+    category: "Figma Design & Dev",
+  },
+
+
+  {
     title: "Flamingo Interior Design",
     description:
       "A modern, elegant, and user-friendly Arabic website concept focused on showcasing beautiful interiors and creating a premium digital experience.",
@@ -33,7 +43,7 @@ const projects = [
     title: "German Cars",
     description:
       "A premium automotive website concept designed to celebrate the excellence of German engineering. This project features a modern, responsive UI with immersive visuals, smooth animations, and an elegant user experience inspired by iconic luxury brands. The design emphasizes performance, precision, and innovation while delivering seamless navigation across all devices",
-    image: "/German Cars M1.jpg",
+    image: "/Germancars.jpg",
     url: "https://german-car-brand.vercel.app/",
     category: "Next.js",
   },
