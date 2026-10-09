@@ -24,7 +24,7 @@ const projects = [
     description:
       "Easy Purchase is a modern building materials e-commerce and quotation platform designed to help customers explore products, manage enquiries, request quotations, and connect with suppliers easily. The system includes a responsive product catalogue, cart and quote flow, customer management, and a complete admin dashboard for products, categories, brands, quotations, users, and settings.",
     image: "/easy purchase.jpg",
-    url: "https://easy-purchase.vercel.app/",
+    url: "https://easy-purchase-1.vercel.app/",
     category: "Figma Design & Dev",
   },
 
