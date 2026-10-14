@@ -28,6 +28,15 @@ const projects = [
     category: "Figma Design & Dev",
   },
 
+  {
+    title: "Spinneys Website Hero Concept",
+    description:
+      "A modern, premium website hero design for Spinneys, combining fresh grocery visuals with a clean, user-friendly interface. The concept highlights Spinneys SWIFT’s 60-minute delivery service through engaging typography, vibrant product imagery, and clear calls to action.",
+    image: "/Spinneys M1.png",
+    url: "https://www.figma.com/proto/oGShTzt63iKHAA2qE0hSRn/Spineeys?node-id=1-2&viewport=352%2C-166%2C0.42&t=D5lJgetYapsrKfqx-1&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=1%3A2&page-id=0%3A1",
+    category: "Figma Design",
+  },
+
 
   {
     title: "Flamingo Interior Design",
