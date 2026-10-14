@@ -292,7 +292,7 @@ export default function Home() {
               </a>
 
               <a
-                href="/Ebenezer C Lalu Resume.pdf"
+                href="https://drive.google.com/file/d/1QfgZITv0cs9N9YAbSANEsAQOOFetOuiM/view?usp=sharing"
                 download
                 className="inline-flex items-center rounded-full border border-white/10 bg-white/5 px-8 py-4 font-semibold backdrop-blur-xl transition-all duration-300 hover:bg-white/10"
               >
