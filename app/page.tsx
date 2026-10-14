@@ -23,10 +23,20 @@ const projects = [
     title: "Easy Purchase, Building Materials Company",
     description:
       "Easy Purchase is a modern building materials e-commerce and quotation platform designed to help customers explore products, manage enquiries, request quotations, and connect with suppliers easily. The system includes a responsive product catalogue, cart and quote flow, customer management, and a complete admin dashboard for products, categories, brands, quotations, users, and settings.",
-    image: "/easy purchase.jpg",
+    image: "/Easy Purchase Architectural Studio Mockup.png",
     url: "https://easy-purchase-1.vercel.app/",
     category: "Figma Design & Dev",
   },
+
+  {
+    title: "Flamingo Interior Design",
+    description:
+      "A modern, elegant, and user-friendly Arabic website concept focused on showcasing beautiful interiors and creating a premium digital experience.",
+    image: "/FLAMINGO M3.jpg",
+    url: "https://www.figma.com/proto/uO5x4yos0zHG38ngTgqqNp/Flamingo-Arabic?node-id=1-2&t=skz3NrR6RL6p56hw-1",
+    category: "Figma Design",
+  },
+
 
   {
     title: "Spinneys Website Hero Concept",
@@ -38,14 +48,7 @@ const projects = [
   },
 
 
-  {
-    title: "Flamingo Interior Design",
-    description:
-      "A modern, elegant, and user-friendly Arabic website concept focused on showcasing beautiful interiors and creating a premium digital experience.",
-    image: "/FLAMINGO M3.jpg",
-    url: "https://www.figma.com/proto/uO5x4yos0zHG38ngTgqqNp/Flamingo-Arabic?node-id=1-2&t=skz3NrR6RL6p56hw-1",
-    category: "Figma Design",
-  },
+
 
 
   {
