@@ -29,6 +29,15 @@ const projects = [
   },
 
   {
+    title: "FOREX EXPO - Brand Identity & Rebranding Concept",
+    description:
+      "A bold rebranding concept inspired by the dynamic world of financial trading. The identity features a distinctive X symbol formed by four directional arrows, representing growth, risk, global connectivity, and collaboration.",
+    image: "/Forexexpo.jpg",
+    url: "https://drive.google.com/file/d/1-EavmoOCk6kZmMC4tgvnbiMgKiy4vwyV/view?usp=sharing",
+    category: "Figma Design & Dev",
+  },
+
+  {
     title: "Flamingo Interior Design",
     description:
       "A modern, elegant, and user-friendly Arabic website concept focused on showcasing beautiful interiors and creating a premium digital experience.",
